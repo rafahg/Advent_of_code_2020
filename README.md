@@ -1,6 +1,6 @@
 ## ADVENT OF CODE CHALLENGE
 
- This repository is my solution approach to the event Advent of Code challenge, a 25 daily challenge until Christmas!. It will be made in Ruby and in a coming future in Javascript.
+ This repository is my solution approach to the event Advent of Code, a 25 daily challenge until Christmas!. It will be made in Ruby and in a coming future in Javascript.
 
  [Advent of code 2020 Event!!](https://adventofcode.com/)
 
