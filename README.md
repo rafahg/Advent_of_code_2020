@@ -25,14 +25,14 @@ To execute the code, if you are brave enough, you need to:
 
  [Day 1 challenge](https://adventofcode.com/2020/day/1)
 
- [Day 1 Solution](https://github.com/rafahg/Advent_of_code_2020/blob/main/Day_1/account_challenge.rb)
+ [Day 1 Solution](https://github.com/rafahg/Advent_of_code_2020/blob/main/Day_1/solution.rb)
 
 
 ### Day 2 ### 
 
  [Day 2 challenge](https://adventofcode.com/2020/day/2)
 
- [Day 2 Solution](https://github.com/rafahg/Advent_of_code_2020/blob/main/Day_1/account_challenge.rb)
+ [Day 2 Solution](https://github.com/rafahg/Advent_of_code_2020/blob/main/Day_2/solution.rb)
 
 
 
