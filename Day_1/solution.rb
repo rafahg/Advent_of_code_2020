@@ -42,7 +42,7 @@ class AccountsManager
 
 end
 
-a = AccountsManager.new('./Day_1/amounts.log')
+a = AccountsManager.new('./Day_1/data.log')
 a.sum_double(a.file_data)
 a.sum_triple(a.file_data)
 
