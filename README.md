@@ -35,6 +35,16 @@ To execute the code, if you are brave enough, you need to:
  [Day 2 Solution](https://github.com/rafahg/Advent_of_code_2020/blob/main/Day_2/solution.rb)
 
 
+ ### Day 3 ### 
+
+ [Day 2 challenge](https://adventofcode.com/2020/day/3)
+
+ [Day 2 Solution](https://github.com/rafahg/Advent_of_code_2020/blob/main/Day_3/solution.rb)
+
+
+
+
+
 
 
 
