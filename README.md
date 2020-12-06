@@ -42,6 +42,30 @@ To execute the code, if you are brave enough, you need to:
  [Day 2 Solution](https://github.com/rafahg/Advent_of_code_2020/blob/main/Day_3/solution.rb)
 
 
+ ### Day 4 ### 
+
+ [Day 2 challenge](https://adventofcode.com/2020/day/4)
+
+ [Day 2 Solution](https://github.com/rafahg/Advent_of_code_2020/blob/main/Day_4/solution.rb)
+
+
+
+ ### Day 5 ### 
+
+ [Day 2 challenge](https://adventofcode.com/2020/day/5)
+
+ [Day 2 Solution](https://github.com/rafahg/Advent_of_code_2020/blob/main/Day_5/solution.rb)
+
+
+
+ ### Day 6 ### 
+
+ [Day 2 challenge](https://adventofcode.com/2020/day/6)
+
+ [Day 2 Solution](https://github.com/rafahg/Advent_of_code_2020/blob/main/Day_6/solution.rb)
+
+
+
 
 
 
