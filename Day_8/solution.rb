@@ -1,27 +1,53 @@
-input = File.readlines('./Day_8/data.txt', chomp:true).map {|item| item.split(" ")}
 
-index = 0
-accumulator = 0
-line_readed = []
+require 'set'
 
-while true
+file_path = File.expand_path('data.txt', __dir__)
+input     = File.read(file_path)
 
-  if line_readed.include?(index)
-    puts "Value of the accumulator is #{accumulator}"
-    exit
+def run(ops)
+  i = 0
+  acc = 0
+  executed = Set.new
+
+  while i < ops.size
+    return nil if executed.include?(i)
+    executed.add(i)
+
+    op, arg = ops[i].split
+    arg = arg.to_i
+
+    case op
+    when "acc"
+      acc += arg
+    when "jmp"
+      i += arg - 1
+    end
+
+    i += 1
   end
 
-    line_readed << index 
-
-    operation = input[index][0]
-    argument = input[index][1].to_i
-
-  if operation == "acc" 
-    accumulator += argument
-  elsif operation == "jmp"
-    p index = index + (argument - 1) # to make null the index + 1 needed in the next line.
-  end
-  index +=1
+  acc
 end
 
+ops = input.split("\n")
 
+ops.size.times do |i|
+  fixed_ops = ops.map(&:clone)
+
+  instr = fixed_ops[i]
+
+  if instr =~ /jmp/
+    instr.gsub!("jmp", "nop")
+  elsif instr =~ /nop/
+    instr.gsub!("nop", "jmp")
+  else
+    next
+  end
+
+  acc = run(fixed_ops)
+
+  if acc
+    puts acc
+    exit
+  end
+end
