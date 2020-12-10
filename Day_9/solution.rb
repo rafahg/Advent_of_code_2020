@@ -5,7 +5,7 @@
  # first a range in input, which is the first 5 numbers
  # and a number to check, the next after the range.
 
-
+# Part 1 Solution
 
 def solution_1
 
@@ -60,6 +60,9 @@ arr.each do |item|
 end
 p arr 
 =end
+
+
+#Part 2 Solution
 
 number = 127
 
